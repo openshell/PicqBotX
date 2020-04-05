@@ -10,9 +10,11 @@ import lombok.ToString;
  */
 @ToString
 @Getter
-public class ComponentShake extends ComponentSendable
+public class ExComponentShake extends ExComponentSendable
 {
-    public ComponentShake() {}
+    public ExComponentShake()
+    {
+    }
 
     @Override
     public String toCQCode()

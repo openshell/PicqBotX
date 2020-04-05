@@ -3,7 +3,7 @@ package taskeren.extrabot.components.richs;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
-import taskeren.extrabot.components.Component;
+import taskeren.extrabot.components.ExComponent;
 
 /**
  * 音乐分享富文本组件。
@@ -13,7 +13,7 @@ import taskeren.extrabot.components.Component;
 @ToString
 @AllArgsConstructor
 @Getter
-public class ComponentRichMusic extends Component
+public class ExComponentRichMusic extends ExComponent
 {
     /**
      * 歌曲名称
@@ -21,8 +21,7 @@ public class ComponentRichMusic extends Component
     final String title;
 
     /**
-     * 歌曲描述
-     * （网易云音乐和QQ音乐则显示作者）
+     * 歌曲描述 （网易云音乐和QQ音乐则显示作者）
      */
     final String desc;
 
@@ -32,8 +31,7 @@ public class ComponentRichMusic extends Component
     final String preview;
 
     /**
-     * APP标签
-     * （例如：“QQ音乐”、“网易云音乐”）
+     * APP标签 （例如：“QQ音乐”、“网易云音乐”）
      */
     final String tag;
 
